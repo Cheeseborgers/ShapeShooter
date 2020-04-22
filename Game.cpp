@@ -28,7 +28,7 @@ void Game::initWindow()
 
     this->window = std::make_unique<sf::RenderWindow>( // Create window
             this->videoMode,
-            "Window",
+            "ShapeShooter",
             sf::Style::Close | sf::Style::Titlebar
     );
 
